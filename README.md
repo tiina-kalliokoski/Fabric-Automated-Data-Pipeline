@@ -18,9 +18,9 @@ Source CSV → Bronze Load → Silver Transform → Gold Aggregations → Semant
 
 This project was created to demonstrate practical Data Engineering skills, Data Factory orchestration, and Microsoft Fabric best practices while preparing for the DP-700: Fabric Data Engineer Associate certification.
 
-# Fabric-Automated-Data-Pipeline
-End-to-end process in Fabric
+## Some screenshots 
 
+End-to-end pipeline
 <img width="1198" height="631" alt="end-to-end-pipeline" src="https://github.com/user-attachments/assets/facd9803-56fa-4fdd-9b2c-33080fbf5f84" />
 
 Monitoring Hub
