@@ -16,7 +16,26 @@ Source CSV → Bronze Load → Silver Transform → Gold Aggregations → Semant
 - Pipeline monitoring and operationalization
 - GitHub-based project documentation
 
-This project was created to demonstrate practical Data Engineering skills, Data Factory orchestration, and Microsoft Fabric best practices while preparing for the DP-700: Fabric Data Engineer Associate certification.
+### Pipeline Parameters
+
+The solution uses dynamic pipeline parameters to improve reusability, monitoring, and auditability across the entire data processing workflow.
+
+### Parameters
+
+#### Parameter | Description 
+
+- RunTimestamp | Captures the execution timestamp of each pipeline run
+- Environment | Identifies the target environment (DEV, TEST, PROD)
+
+#### Implementation
+
+The parameters are defined at the pipeline level and passed to all notebook activities:
+
+- 01_Bronze_Load
+- 02_Silver_Transform
+- 03_Gold_Aggregations
+
+The notebooks are designed to support both pipeline execution and standalone development execution through fallback default values.
 
 ## Some screenshots 
 
@@ -25,3 +44,6 @@ End-to-end pipeline
 
 Monitoring Hub
 <img width="1642" height="875" alt="monitoring" src="https://github.com/user-attachments/assets/5255256b-8f65-4c2b-b45d-4a64fb9df894" />
+
+
+This project was created to demonstrate practical Data Engineering skills, Data Factory orchestration, and Microsoft Fabric best practices while preparing for the DP-700: Fabric Data Engineer Associate certification.
